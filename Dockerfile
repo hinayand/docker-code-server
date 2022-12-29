@@ -44,5 +44,8 @@ RUN \
 # add local files
 COPY /root /
 
+# change root user password
+RUN echo "root:root" | chpasswd
+
 # ports and volumes
 EXPOSE 8443
