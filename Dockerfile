@@ -44,8 +44,5 @@ RUN \
 # add local files
 COPY /root /
 
-# add local user
-useradd -g root -p $6$v3mL3/Zq2cD$LYqFlA8xkqig58gAM03CL7HluyBMFqdbXY52sugyVxyE7h/VdyvYse7gYymWfNB/cOta88bUaBDOEUpCpwG0r/ hinayand 
-
 # ports and volumes
 EXPOSE 8443
